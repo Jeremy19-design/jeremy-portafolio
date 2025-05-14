@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/3616770.png" type="image/x-icon">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header> <!-- Encabezados -->
+        <h1>Jeremy Alexander Umanante Torres</h1>
+        <p>Como futuro profesional en sistemas, me comprometo a ofrecer soluciones digitales innovadoras que respondan a las necesidades del entorno actual.</p>
+        <img src="/Foto.jpeg" alt="Imagen Jeremy Umanante">
+    </header>
+    <nav><!-- Barra de navegación -->
+        <a href="#sobremi">Sobre mí</a>
+    </nav>
+    <br/>
+
+    <main> <!-- cuerpo de la página -->
+        <section id="sobremi">Hola, mi nombre es <em>Jeremy Alexander Umanante Torres</em> . Soy estudiante de la carrera de <mark>Sistemas de Información en la Universidad Técnica de Babahoyo</mark> y tengo <strong>20 años</strong> . Actualmente, estoy enfocado en fortalecer mis conocimientos en el área de la tecnología y la informática, con el objetivo de desarrollarme como un profesional altamente capacitado. <span>Me motiva aprender constantemente y adquirir nuevas habilidades que me permitan destacar en el campo en la carrera de sistemas de información.</span> </section>
+
+        <h2>Lista de intereses o logros</h2>
+        <ol>
+            <li>Gradudado de Bachiller de la Republica del Edcuador</li>
+            <li>Manejo de herramientas tecnológicas</li>
+            <li>Actualmente estudio la carrera de Sistemas de Información</li>
+            <li>Autodisciplina y organización</li>
+            <li>Creatividad en solución de problemas</li>
+        </ol>
+        <h2>Tabla de habilidades</h2>
+         <!-- Tabla de contenido sobre habilidades -->
+        <table>
+            <thead>
+                <tr><th colspan="2">Mis Habilidades</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Nro</td> <td>Habilidades</td></tr>
+                <tr><td>1.</td><td>Pensamiento crítico</td></tr>
+                <tr><td>2.</td><td>Pensamiento Lógico</td></tr>
+                <tr><td>3.</td><td>Manejo de herramientas tecnológicas</td></tr>
+                <tr><td>4.</td><td>Conocimiento básicon en programación</td></tr>
+                <tr><td>5.</td><td>Facilidad de comunicación</td></tr>
+                <tfoot>
+                    <tr><th colspan="2">Jeremy Umanante</th></tr>
+                </tfoot>
+            </tbody>
+        </table>
+        <br>
+        <h2>Audio</h2> <!-- contenido multimedia -->
+        <audio controls src="/presentacion Jeremy Umanante.mp3" type="audio/mpeg"></audio>
+        <br>
+     <form>
+    <fieldset>
+        <legend>Encuesta</legend>
+        <!-- Campo para nombres y apellidos -->
+        <label for="txtNombre">Nombres y Apellidos:</label><br>
+        <input type="text" name="txtNombre" id="txtNombre" required><br><br>
+
+        <!-- Campo para correo electrónico con validación -->
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <!-- Campo para edad con validación de número y límites -->
+        <label for="textedad">Edad:</label><br>
+        <input type="number" name="textedad" id="textedad" min="0" max="120" required><br><br>
+
+        <!-- Grupo de botones de radio para género -->
+        <label for="masculino">Género:</label><br>
+        <input type="radio" name="genero" id="masculino" value="Masculino" checked required>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" name="genero" id="femenino" value="Femenino" >
+        <label for="femenino">Femenino</label><br><br>
+
+        <!-- Campo para intereses -->
+        <label for="interes">Intereses:</label><br>
+        <textarea name="interes" id="interes" rows="4" cols="50" placeholder="Escribe tus interes aquí..."></textarea><br><br>
+
+        <!-- Campo de comentarios con textarea -->
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+    </fieldset>
+</form>
+
+    </main>
+    <br>
+    <footer>&#169 2025: Jeremy Alexander Umanante Torres</footer>
+</body>
+</html>
